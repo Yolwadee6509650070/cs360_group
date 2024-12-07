@@ -17,7 +17,7 @@ RUN yarn seed
 
 RUN yarn build
 # Expose the port your app runs on
-EXPOSE 1337
+EXPOSE 1337 
 
 # Start the app
 CMD ["yarn", "start"]
