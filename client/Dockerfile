@@ -17,5 +17,5 @@ COPY . .
 # Expose the port your app runs on
 EXPOSE 3000
 
-# Start the app
+# Start the app 
 CMD ["sh", "-c", "yarn build && yarn start"]
